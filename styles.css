@@ -1,1 +1,78 @@
 /* your code here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  width: 100%;
+}
+
+/* TOP ROW */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+.company {
+  font-weight: normal;
+}
+
+.social {
+  display: flex;
+  gap: 12px;
+}
+
+.media-icons {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.fb { background: #3b5998; }
+.tw { background: #1da1f2; }
+.ig { background: #e1306c; }
+.ln { background: #0077b5; }
+.yt { background: #ff0000; }
+
+/* 🔥 FORCE HORIZONTAL LAYOUT */
+.footer-middle {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between;
+  padding: 20px 60px 40px;
+}
+
+/* COLUMNS */
+.box h4 {
+  margin-bottom: 12px;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  font-weight: normal;
+}
+
+.box p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* BOTTOM BAR */
+.footer-bottom {
+  background: #2c2f38;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 60px;
+  font-size: 14px;
+  color: #ccc;
+}
